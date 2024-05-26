@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "The capital of India is New Delhi.",
         "The Reserve Bank of India (RBI) is headed by the Governor.",
         "The current President of India is Ram Nath Kovind."
+        
     ];
 
     // Select all question elements
