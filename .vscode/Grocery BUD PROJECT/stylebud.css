@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .section-center {
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 90vw;
+    max-width: 500px;
+    
+  }
+  
+  .grocery-form h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 40px;
+  }
+  
+  .form-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .form-control input {
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    padding: 0.5rem;
+    border: none;
+    background: #5cb85c;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  .grocery-container {
+    margin-top: 2rem;
+  }
+  
+  .grocery-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .clear-btn {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background: #d9534f;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-size: 20px;
+  }
+  

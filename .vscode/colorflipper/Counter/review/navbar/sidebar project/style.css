@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-left: 300px;*/
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    margin-left: 100px;
+     background-color: #0e748b; 
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    /* padding-left: 300px; */
+}
+/* .sidebar p {
+    font-size: 30px;
+    color: #0cc844; */
+
+
+
+
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(141, 238, 106);
+    display: block;
+    transition: 0.3s;
+    /* padding-left: 300px; */
+    /* margin-left: 300px; */
+}
+
+.sidebar a:hover {
+    color: #b3dded;
+    /* margin-bottom: 100px; */
+   background-color:ghostwhite;
+
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    /* margin-left: 500px;
+*/}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: 
+    #7ef676;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-left: 1100px;
+    padding-left: 30px;
+    /* cursor: pointer; */
+}
+
+.openbtn:hover {
+    background-color: #8bd4ed;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+.icons {
+    display: flex;
+    margin-top: 300px;
+}
